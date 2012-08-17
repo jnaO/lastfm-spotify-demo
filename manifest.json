@@ -1,0 +1,26 @@
+{
+    "BundleType": "Application",
+    "BundleCopyright": "© Markus Bergh, 2012",
+    "BundleIdentifier": "demo",
+    "BundleVersion": "1.0",
+    "AppIcon": {
+        "18x18": "/assets/icon-18.png",
+        "64x64": "/assets/icon-64.png",
+        "128x128": "/assets/icon-128.png"
+    },
+    "AppDescription": {
+    	"en": "Det här är en demo, ingenting annat. Lovar."
+    },
+    "AppName": {
+        "en": "Demo"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+    "DefaultTabs": [ ],
+    "VendorIdentifier": "com.creuna",
+    "RequiredInterface": "1",
+    "RequiredPermissions": [ 
+    	"http://*.audioscrobbler.com/"
+    ]
+}

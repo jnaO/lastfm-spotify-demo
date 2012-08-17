@@ -1,0 +1,51 @@
+body {
+	padding-bottom: 25px;
+}
+
+h1 {
+	margin: 20px auto 40px auto;
+	font-size: 35px;
+	width: 400px;
+	font-family: Lucida;
+	text-align: center;
+}
+
+.app {
+	margin: 0 auto;
+}
+
+.player {
+	float: left;
+	margin: 25px 25px 25px 45px;
+	width: 500px;;
+}
+
+.player > * {
+	float: left;
+}
+
+.player .title {
+	margin-bottom: 15px;
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.sp-player {
+	clear: both;
+}
+
+.sp-list {
+	margin-top: 20px;
+	max-height: 200px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* Space avoids Opera bug */
+    display: table; /* Using table rather than block because of :before and to contain top-margins of child-elements */
+}
+
+.cf:after {
+    clear: both;
+}
