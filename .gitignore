@@ -36,5 +36,5 @@ Compiled source #
 Icon?
 ehthumbs.db
 Thumbs.db
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
